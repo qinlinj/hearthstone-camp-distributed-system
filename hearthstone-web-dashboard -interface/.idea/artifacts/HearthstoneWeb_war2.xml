@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="HearthstoneWeb:war2">
+    <output-path>$PROJECT_DIR$/out/artifacts/HearthstoneWeb_war2</output-path>
+    <root id="archive" name="HearthstoneWeb_war.war">
+      <element id="artifact" artifact-name="HearthstoneWeb:war exploded" />
+    </root>
+  </artifact>
+</component>

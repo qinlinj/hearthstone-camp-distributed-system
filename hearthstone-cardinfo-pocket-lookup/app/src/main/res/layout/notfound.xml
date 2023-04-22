@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingStart="32dp"
+    android:paddingEnd="32dp">
+    <ImageView
+        android:id="@+id/defaultImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/default_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"/>
+
+    <TextView
+        android:id="@+id/cardNameNotFound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text=""
+        android:layout_below="@id/defaultImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+
+    <Button
+        android:id="@+id/searchAgain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search another card"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="#000000"
+        android:layout_below="@id/cardNameNotFound"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"/>
+</RelativeLayout>
